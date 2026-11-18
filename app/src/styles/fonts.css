@@ -1,0 +1,13 @@
+/* Mona Sans (SIL Open Font License 1.1), latin subset. One variable file
+ * covers every weight from 200 to 900 and every width from 75% to 125%:
+ * the condensed numerals on the dial, the running text and the wide headings. */
+
+@font-face {
+  font-family: 'Mona Sans';
+  font-style: normal;
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-display: swap;
+  src: url('/fonts/mona-sans-variable.woff2') format('woff2-variations'),
+    url('/fonts/mona-sans-variable.woff2') format('woff2');
+}

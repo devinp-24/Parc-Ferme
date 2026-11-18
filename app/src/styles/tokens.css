@@ -1,0 +1,50 @@
+/* GENERATED FILE — do not edit.
+ * Source: shared/tokens.js
+ * Rebuild: npm run tokens
+ */
+
+:root {
+  /* Colour */
+  --night: #000000;
+  --panel: #121212;
+  --raised: #1A1A1A;
+  --rule: #262626;
+  --rule-strong: #3A3A3A;
+  --ink: #F1F0ED;
+  --ash: #A3A29D;
+  --smoke: #868580;
+  --redline: #EE4433;
+  --scrim: rgba(0, 0, 0, 0.78);
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-xxl: 32px;
+  --space-xxxl: 56px;
+
+  /* Type */
+  --font-sans: 'Mona Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Widths */
+  --width-condensed: 78%;
+  --width-normal: 100%;
+  --width-wide: 116%;
+  --width-widest: 125%;
+
+  /* Motion */
+  --motion-fast: 140ms;
+  --motion-base: 220ms;
+  --motion-slow: 420ms;
+  --motion-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+}

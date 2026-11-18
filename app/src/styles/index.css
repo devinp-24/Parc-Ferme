@@ -1,0 +1,10 @@
+/* Import order is load-bearing:
+ *   tokens  generated from shared/tokens.js; defines every custom property
+ *   fonts   self-hosted @font-face
+ *   base    reset, document, focus, reduced motion
+ *   app     components
+ */
+@import './tokens.css';
+@import './fonts.css';
+@import './base.css';
+@import './app.css';

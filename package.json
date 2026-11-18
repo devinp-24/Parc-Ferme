@@ -1,0 +1,35 @@
+{
+  "name": "parc-ferme",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GT7 car collection tracker: what you own, what you are missing, and what it costs to finish.",
+  "scripts": {
+    "dev": "concurrently -k -n api,app -c blue,magenta \"npm:server\" \"npm:app\"",
+    "dev:all": "npm run dev",
+    "server": "node --watch server/server.js",
+    "app": "vite --config app/vite.config.js",
+    "build": "vite build --config app/vite.config.js",
+    "start": "node server/server.js",
+    "sync": "node scripts/sync.mjs",
+    "sync:full": "node scripts/sync.mjs --full",
+    "tokens": "node scripts/build-tokens.mjs",
+    "seed": "node scripts/seed-remote.mjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.2.5",
+    "framer-motion": "^14.14.0",
+    "lucide-react": "^1.73.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vite": "^6.4.6"
+  }
+}
