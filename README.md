@@ -158,7 +158,7 @@ for example a copy to try changes on without touching your real garage.
 
 ## Deploy
 
-One Railway service: `npm ci --include=dev && npm run build`, then `npm start`.
+One Railway service: `npm install --include=dev && npm run build`, then `npm start`.
 
 | Variable | Purpose |
 | --- | --- |
