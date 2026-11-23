@@ -5,7 +5,7 @@ own, which ones you are missing, what each costs, and what it would take to
 finish any collection you care about: a manufacturer, a class, a region, or the
 whole game. Built on the same bones as The Stockroom (the shoe tracker).
 
-**Live (read-only):** [parc-ferme-production.up.railway.app](https://parc-ferme-production.up.railway.app). Built with Claude, which had
+**Live (read-only):** [parc-ferme-production.up.railway.app](https://parc-ferme-production.up.railway.app) · **[Watch the demo](https://youtu.be/IC3AjvdyErU)**. Built with Claude, which had
 the first version running in under an hour.
 
 ## The design, in one paragraph
